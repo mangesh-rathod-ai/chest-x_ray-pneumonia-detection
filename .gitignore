@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data (large - never commit the dataset)
+data/raw/*
+data/processed/*
+data/dummy/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Models: the final model IS committed so Streamlit Cloud can load it.
+# Ignore experiment checkpoints / extra models instead:
+models/*
+!models/.gitkeep
+!models/medical_model.keras
+!models/model_config.json
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

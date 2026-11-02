@@ -1,0 +1,9 @@
+tensorflow>=2.16,<3
+numpy
+pandas
+Pillow
+opencv-python-headless
+matplotlib
+scikit-learn
+streamlit>=1.35
+kagglehub

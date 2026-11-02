@@ -1,0 +1,20 @@
+# Premium light medical theme. Streamlit reads this file from the folder where you run `streamlit run`.
+[theme]
+base = "light"
+primaryColor = "#0E7C86"
+backgroundColor = "#F5F8FB"
+secondaryBackgroundColor = "#E9F0F6"
+textColor = "#0F2A43"
+font = "sans serif"
+
+[theme.sidebar]
+backgroundColor = "#0B2A43"
+secondaryBackgroundColor = "#14405F"
+textColor = "#E8F0F7"
+primaryColor = "#5CD6C8"
+
+[client]
+toolbarMode = "minimal"
+
+[server]
+maxUploadSize = 50

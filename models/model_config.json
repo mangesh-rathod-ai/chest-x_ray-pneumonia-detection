@@ -1,0 +1,36 @@
+{
+  "backbone": "efficientnetb0",
+  "weights": "none",
+  "img_size": 224,
+  "class_names": [
+    "NORMAL",
+    "PNEUMONIA"
+  ],
+  "threshold": 0.9802502393722534,
+  "min_recall_target": 0.95,
+  "trained_at": "2026-10-13T09:21:11",
+  "train_class_counts": {
+    "NORMAL": 1341,
+    "PNEUMONIA": 3875
+  },
+  "args": {
+    "data_dir": "D:\\Medical-Disease-Detection\\Medical-Disease-Detection\\data\\raw\\chest_xray",
+    "backbone": "efficientnetb0",
+    "weights": "none",
+    "img_size": 224,
+    "batch_size": 32,
+    "epochs": 5,
+    "finetune_epochs": 0,
+    "finetune_layers": 30,
+    "lr": 0.001,
+    "finetune_lr": 1e-05,
+    "dropout": 0.3,
+    "patience": 4,
+    "min_recall": 0.95,
+    "no_class_weights": false,
+    "seed": 42,
+    "model_path": "D:\\Medical-Disease-Detection\\Medical-Disease-Detection\\models\\medical_model.keras",
+    "config_path": "D:\\Medical-Disease-Detection\\Medical-Disease-Detection\\models\\model_config.json",
+    "output_dir": "D:\\Medical-Disease-Detection\\Medical-Disease-Detection\\outputs"
+  }
+}
